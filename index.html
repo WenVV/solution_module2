@@ -30,7 +30,7 @@ p {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3 {
-    float: left;
+    float: right;
     border: 1px solid green ;
   }
   .col-lg-1 {
@@ -46,7 +46,7 @@ p {
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3 {
-    float: left;
+    float: right;
     border: 1px solid green;
   }
   .col-md-1 {
@@ -62,7 +62,7 @@ p {
 /********** Small devices only **********/
 @media (min-width: 576px) and (max-width: 768px) {
   .col-md-1, .col-md-2, .col-md-3 {
-    float: left;
+    float: right;
     border: 1px solid gray;
   }
   .col-md-1 {
@@ -78,7 +78,7 @@ p {
 /********** XSmall devices only **********/
 @media (min-width: none(auto)) and (max-width: 576px) {
   .col-md-1, .col-md-2, .col-md-3 {
-    float: left;
+    float: right;
     border: 1px solid gray;
   }
   .col-md-1 {
@@ -92,15 +92,16 @@ p {
   }
 </style>
 </head>
-<body>
-<h1>Our Menu</h1>
-
 <div class="row">
-  <div class="col-lg-3 col-md-6"><p>Chicken</p></div>
-  <div class="col-lg-3 col-md-6"><p>Beef</p></div>
-  <div class="col-lg-3 col-md-6"><p>Sushi</p></div>
+  <div class="col-lg-3 col-md-6 color= pink border= solid black "><p>Chicken</p></div>
+  <div class="col-lg-3 col-md-6" color= red><p>Beef</p></div>
+  <div class="col-lg-3 col-md-6" color= yelow><p>Sushi</p></div>
 
 </div>
+<body>
+<h1>Our Menu</h1>
+<p> </p>
+
 </head>
 </body>
 </html>
