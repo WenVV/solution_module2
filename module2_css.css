@@ -1,0 +1,8 @@
+body {
+    font-size: 24px;
+    overflow: hidden;
+  }
+  
+  p {font-size:130%; 
+    background-color: gray;
+    color:white}
