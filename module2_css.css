@@ -2,62 +2,85 @@
 * {
     box-sizing: border-box;
   }
-  h1 {
-    margin-bottom: 15px;
-  }
-  p {
-    border: 1px solid black;
-    background-color: gray;
-    width: 90%;
-    height: 150px;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: Helvetica;
-    color: black;
-  }
-  /* Simple Responsive Framework. */
-  .row {
-    width: 100%;
-  }
-
-body {
+  body {
     font-size: 24px;
-    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+  h1 {
+    font-size: 175%;
+    margin-bottom: 15px;
+    text-align: center;
   }
 
-  p {font-size:130%; 
-    background-color: gray;
-    color:white}
-
-    
-/********** Small devices only **********/
-@media (min-width: 576px) and (max-width: 767px) {
-    .col-md-1, .col-md-2, .col-md-3 {
-      float: right;
-      border: 1px solid white;
-    }
-    .col-md-1 {
-      width: 8.33%;
-    }
-    .col-md-2 {
-      width: 16.66%;
-    }
-    .col-md-3 {
-      width: 25%;
-    }
+  .section-title {
+    position: relative;
+    float: right;
+    border: 1px solid black;
+    padding: 5px 40px;
+    margin-bottom: 20px;
+    font-size: 125%;
+    color:black;
   }
-  /********** XSmall devices only **********/
-  @media (min-width: none(auto)) and (max-width: 576px) {
-    .col-md-1, .col-md-2, .col-md-3 {
-      float: right;
-      border: 1px solid white;
+
+  .section-inner {
+      border: 1px solid black;
+      background-color: gray;
+  }
+  .section-title.beef {
+      background-color: red;
+      color:white
+   }
+
+   .section-title.chicken {
+       background-color: pink;
+       color: black;
+   }
+   .section-title.sushi {
+       background-color: moccasin;
+       color: black
+
+   }
+
+  /********** Mobile only **********/
+  @media (max-width: 767px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+      float: left;
     }
-    .col-md-1 {
+    .col-sm-1 {
       width: 8.33%;
     }
-    .col-md-2 {
+    .col-sm-2 {
       width: 16.66%;
     }
-    .col-md-3 {
+    .col-sm-3 {
       width: 25%;
     }
+    .col-sm-4 {
+      width: 33.33%;
+    }
+    .col-sm-5 {
+      width: 41.66%;
+    }
+    .col-sm-6 {
+      width: 50%;
+    }
+    .col-sm-7 {
+      width: 58.33%;
+    }
+    .col-sm-8 {
+      width: 66.66%;
+    }
+    .col-sm-9 {
+      width: 74.99%;
+    }
+    .col-sm-10 {
+      width: 83.33%;
+    }
+    .col-sm-11 {
+      width: 91.66%;
+    }
+    .col-sm-12 {
+      width: 100%;
+    }
+}
+  
