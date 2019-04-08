@@ -34,18 +34,20 @@
       background-color: red;
       color:white;
       font-weight: bold;
-      
+      position: right;
    }
 
    .section-title.chicken {
        background-color: pink;
        color: black;
        font-weight: bold;
+       position: right;
    }
    .section-title.sushi {
        background-color: moccasin;
        color: black;
        font-weight: bold;
+       position: right;
    }
 
 
