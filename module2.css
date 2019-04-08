@@ -48,6 +48,12 @@
        color: black
 
    }
+   
+   /* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  padding: 0 10px;
+}
 
   /********** Mobile only **********/
   @media (max-width: 767px) {
