@@ -25,6 +25,9 @@
     margin-bottom: 20px;
     font-size: 125%;
     color:black;
+    top: -1px;
+    right: -1px;
+  
   }
 
   .section-inner {
