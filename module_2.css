@@ -1,8 +1,9 @@
 /********** Base styles **********/
 * {
     box-sizing: border-box;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
   }
   body {
  
@@ -17,10 +18,16 @@
       position: relative;
       padding: 10px;
   }
+
+  .section-inner {
+    border: 2px solid black;
+    background-color: gray;
+}
+
   .section-title {
     position: relative;
     float: right;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 5px 40px;
     margin-bottom: 15px;
     font-size: 125%;
@@ -49,11 +56,7 @@
        font-weight: bold;
        position: right;
    }
-   .section-inner {
-    border: 1px solid black;
-    background-color: gray;
-}
-
+  
 
   /********** Mobile only **********/
   @media (max-width: 767px) {
