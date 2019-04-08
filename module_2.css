@@ -1,9 +1,9 @@
 /********** Base styles **********/
 * {
     box-sizing: border-box;
-    padding: 20px;
-    margin: 20px;
-    border: 2px solid black;
+    padding: 0px;
+    margin: 0px;
+    border: 3px solid black;
   }
   body {
  
