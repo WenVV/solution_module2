@@ -25,6 +25,9 @@
     margin-bottom: 20px;
     font-size: 125%;
     color:black;
+    top: -1px;
+    right: -1px;
+  
   }
   .section-inner {
       border: 1px solid black;
@@ -49,12 +52,6 @@
        font-weight: bold;
        position: right;
    }
-
-   /* Simple Responsive Framework. */
-.row {
-  width: 100%;
-  padding: 0 10px;
-}
 
 
   /********** Mobile only **********/
