@@ -20,7 +20,6 @@
   .section-inner {
     border: 1.2px solid black;
     background-color: gray;
-    padding-top: 35px;
 }
 
   .section-title {
@@ -42,6 +41,7 @@
       color:white;
       font-weight: bold;
       position: right;
+      padding-bottom: 15px;
    }
 
    .section-title.chicken {
@@ -49,12 +49,16 @@
        color: black;
        font-weight: bold;
        position: right;
+       padding-bottom: 15px;
+
    }
    .section-title.sushi {
        background-color: moccasin;
        color: black;
        font-weight: bold;
        position: right;
+       padding-bottom: 15px;
+
    }
    /* Simple Responsive Framework. */
 .row {
