@@ -23,9 +23,9 @@
   .section-title {
     position: relative;
     float: right;
-    border: 1.2px solid black;
+    border: 1px solid black;
     padding: 5px 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 125%;
     color:black;
     top: -1px;
