@@ -23,13 +23,13 @@
   }
 
   .section-inner {
-    border: 1px solid black;
+    
     background-color: gray;
     padding: 1px;
     padding-left: 10px; 
     border: 1.5px solid black; 
     border-bottom: 30px;
-     
+    border: 1px solid black; 
     
 }
 
