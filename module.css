@@ -35,7 +35,7 @@
 }
 
   .section-title {
-    position: absolute;
+    position: relative;
     float: right;
     border: 1.5px solid black;
     padding: 5px 20px;
