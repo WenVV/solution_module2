@@ -1,6 +1,7 @@
 /********** Base styles **********/
 * {
     box-sizing: border-box;
+    padding: 10px;
         }
   body {
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -29,7 +30,7 @@
     border: 1.5px solid black;
     padding: 5px 20px;
     margin-bottom: 3px;
-    
+    margin-top: 3px;
     font-size: 125%;
     color:black;
     top: -1px;
