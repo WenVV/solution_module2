@@ -79,7 +79,7 @@
     }
    /* Framework */
 .row {
-  width: 100%;
+  full width: 100%;
   padding: 0 10px 0 10px;
 }
 p{padding-top: 30px;}
