@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
     position: relative;
-    width: 100%;
+ 
    
         }
   body {
@@ -30,8 +30,6 @@
     border-bottom: 30px;
     border: 1px solid black; 
     border-bottom: 1px solid black;
- 
-    
 }
 
   .section-title {
