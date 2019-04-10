@@ -75,6 +75,11 @@
        
           
    }
+
+    .fullWidth {
+      width: 100%;
+
+    }
    /* Framework */
 .row {
   width: 100%;
